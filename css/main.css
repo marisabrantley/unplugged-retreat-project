@@ -98,6 +98,361 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ------------------------ Base Header - Footer Styles --------------------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+
+}
+
+header h1 {
+
+}
+
+.header-divider {
+
+}
+
+/* Navigation */
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header nav li {
+
+}
+
+
+/* Footer Styles */
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .contact h4 {
+
+}
+
+footer .contact p {
+
+}
+
+footer .contact a {
+
+}
+
+footer .social {
+
+}
+
+footer .social h4 {
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons a {
+
+}
+
+footer .copyright {
+
+}
+
+footer .copyright p {
+
+}
+
+
+
+/* ------------------------ Mobile Styles - Homepage --------------------- */
+
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.hero-area .content-wrapper {
+
+}
+
+.hero-area h1 {
+
+}
+
+.hero-area img {
+
+}
+
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form-description h3 {
+
+}
+
+aside .form-description p {
+
+}
+
+.form {
+
+}
+
+.form h3 {
+
+}
+
+.form input {
+
+}
+
+/* Features Area */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.features .content-wrapper {
+
+}
+
+.features .content-wrapper h2 {
+
+}
+
+.features .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.features article {
+
+}
+
+.features p {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews article {
+
+}
+
+.reviews article img {
+
+}
+
+.reviews article h3 {
+
+}
+
+.reviews article p {
+
+}
+
+
+/* ------------------------ Mobile Styles - About Page --------------------- */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section .contact-wrapper {
+
+}
+
+address .contact-content {
+
+}
+
+.contact-content h4 {
+
+}
+
+.contact-content p {
+
+}
+
+.contact-content a {
+
+}
+
+
+/* ------------------------ Mobile Styles - FAQ Page --------------------- */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.faq .content-wrapper h2 {
+
+}
+
+.content-wrapper .faq-content {
+
+}
+
+.faq-content h4 {
+
+}
+
+.faq-content p {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +617,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
