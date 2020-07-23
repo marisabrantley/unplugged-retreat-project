@@ -98,6 +98,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper: {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /* ------------------------ Base Header - Footer Styles --------------------- */
 
 header,
@@ -111,7 +116,7 @@ footer {
 /* Header Styles */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -119,6 +124,8 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+
 }
 
 header figure {
@@ -130,7 +137,9 @@ header h1 {
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 /* Navigation */
@@ -140,13 +149,13 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-
+  width: 100%;
 }
 
 header nav li {
@@ -157,11 +166,12 @@ header nav li {
 /* Footer Styles */
 
 footer {
-
+  flex-direction: column;
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .footer-content {
@@ -169,7 +179,7 @@ footer .footer-content {
 }
 
 footer .contact {
-
+  margin-bottom: 50px;
 }
 
 footer .contact h4 {
@@ -209,11 +219,11 @@ footer .social-icons a {
 }
 
 footer .copyright {
-
+  margin: 20px 0;
 }
 
-footer .copyright p {
-
+footer p {
+  margin: 0;
 }
 
 
@@ -293,8 +303,8 @@ aside .form-description p {
 
 }
 
-.features .content-wrapper h2 {
-
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .feature-items {
@@ -306,11 +316,12 @@ aside .form-description p {
 }
 
 .features article {
-
+  width: 60%;
+  margin: 50px 0;
 }
 
 .features p {
-
+  margin: 0;
 }
 
 .fontawesome-icon {
@@ -335,22 +346,23 @@ aside .form-description p {
 }
 
 .reviews h2 {
-
+  margin-bottom: 30px;
 }
 
 .reviews article {
 
 }
 
-.reviews article img {
+.reviews img {
 
 }
 
-.reviews article h3 {
-
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
-.reviews article p {
+.reviews p {
 
 }
 
@@ -401,7 +413,7 @@ address .contact-content {
 }
 
 .contact-content p {
-
+  margin: 0;
 }
 
 .contact-content a {
@@ -415,6 +427,7 @@ address .contact-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -423,15 +436,16 @@ address .contact-content {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 
 }
 
-.faq .content-wrapper h2 {
-
+.faq h2 {
+  margin-bottom: 45px;
 }
 
-.content-wrapper .faq-content {
-
+.faq-content {
+  margin-bottom: 50px;
 }
 
 .faq-content h4 {
@@ -441,14 +455,6 @@ address .contact-content {
 .faq-content p {
 
 }
-
-
-
-
-
-
-
-
 
 
 
