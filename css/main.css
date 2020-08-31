@@ -551,8 +551,9 @@ address .contact-content {
 @media only screen and (min-width: 768px) {
    /*Tablet styles here*/
 
-   /* ------------------------ Tablet Styles - Homepage --------------------- */
-   /* General styles */
+/* ------------------------ Tablet Styles - Homepage --------------------- */
+      /* General styles */
+
        .content-wrapper {
          max-width: 640px;
          margin: 100px 0;
@@ -586,6 +587,7 @@ address .contact-content {
        /* Hero Area */
 
        /* Aside */
+
        aside .content-wrapper {
           margin: 50px 0;
           display: flex;
@@ -615,6 +617,7 @@ address .contact-content {
        }
 
        /* Reviews */
+
        .reviews article {
           display: flex;
           justify-content: space-between;
@@ -625,6 +628,7 @@ address .contact-content {
        }
 
        /* Footer */
+
        footer .content-wrapper {
           width: 65%;
           margin: 100px 0;
@@ -688,26 +692,62 @@ address .contact-content {
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
-    /* ---------------------- Desktop Styles - Homepage --------------------- */
+/* ---------------------- Desktop Styles - Homepage --------------------- */
 
-/* To be updated*/
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* Hero */
+
+    .hero-area h1 {
+      width: 70%;
+    }
+
+    /* Aside */
+
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+      width: 30%;
+    }
+
+    /* Features */
+
+    .features h2 {
+      width: 92%;
+    }
+
+    .features article {
+      flex-basis: 35%;
+    }
+
+    /* Reviews */
+
+    .reviews article div {
+      width: 40%;
+    }
 
 
+/* ---------------------- Desktop Styles - About Page --------------------- */
+
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+      width: 96%;
+    }
 
 
+/* ---------------------- Desktop Styles - FAQ Page --------------------- */
 
-
-
-
-
-
-
-
-
-
-
+    .faq h2 {
+      width: 100%;
+    }
 
 }
+
 
 /* ==========================================================================
    Print styles.
