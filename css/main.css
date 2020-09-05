@@ -106,15 +106,15 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #cccccc;
   text-align: left;
 }
 
 ul,
 ol {
-  list-style: none;
-  font-size: 1rem;
+  list-style-type: none;
 }
 
 a {
@@ -124,17 +124,19 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.88em;
+  font-size: 1.75em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2em;
+  font-weight: 500;
 }
 
 p {
-  font-size: normal;
+  font-size: 0.875em;
   line-height: 1.125em;
 }
 
@@ -147,7 +149,7 @@ figure {
 }
 
 address {
-  font-family: normal;
+  font-style: normal;
 }
 
 .content-wrapper: {
@@ -160,6 +162,7 @@ address {
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,7 +172,7 @@ footer {
 /* Header Styles */
 
 header {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 header .content-wrapper {
@@ -186,13 +189,15 @@ header figure {
 }
 
 header h1 {
-
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .header-divider {
+  background-color: #3a3a3a;
   width: 100%;
   height: 1px;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 30px 0;
 }
 
 /* Navigation */
@@ -202,17 +207,20 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 90%;
 }
 
 header nav ul {
+  list-style-type: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
 header nav li {
-
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 
@@ -222,25 +230,28 @@ footer {
   flex-direction: column;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .content-wrapper {
+  text-align: center;
   width: 55%;
   margin: 50px 0;
 }
 
-footer .footer-content {
-
-}
-
 footer .contact {
+  font-style: normal;
   margin-bottom: 50px;
 }
 
-footer .contact h4 {
+footer h4 {
 
 }
 
 footer .contact p {
-
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer .contact a {
@@ -248,10 +259,6 @@ footer .contact a {
 }
 
 footer .social {
-
-}
-
-footer .social h4 {
 
 }
 
@@ -272,13 +279,9 @@ footer .social-icons a {
 }
 
 footer .copyright {
+  font-size: 0.875em;
   margin: 20px 0;
 }
-
-footer p {
-  margin: 0;
-}
-
 
 
 /* ------------------------ Mobile Styles - Homepage --------------------- */
@@ -298,7 +301,10 @@ footer p {
 }
 
 .hero-area h1 {
-
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2em;
 }
 
 .hero-area img {
@@ -308,15 +314,15 @@ footer p {
 /* Aside */
 
 aside {
+  background-color: #4e6e54;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 aside .content-wrapper {
-
+  padding-bottom: 55px;
 }
 
 aside .form-description {
@@ -324,24 +330,39 @@ aside .form-description {
 }
 
 aside .form-description h3 {
-
+  font-size: 1.125em;
 }
 
-aside .form-description p {
-
-}
-
-.form {
-
+aside .form {
+  margin-top: 30px;
 }
 
 .form h3 {
-
+  font-size: 1.125em;
 }
 
-.form input {
-
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
 }
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* Features Area */
 
@@ -357,23 +378,24 @@ aside .form-description p {
 }
 
 .features h2 {
+  font-size: 1.875em;
   margin-bottom: 60px;
 }
 
-.features .feature-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .features article {
-  width: 60%;
+  width: 63%;
   margin: 30px 0;
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -381,13 +403,11 @@ aside .form-description p {
 
 }
 
-.features-item-description {
 
-}
-
-/* Reviews */
+/* Reviews Area */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -396,9 +416,12 @@ aside .form-description p {
 
 .reviews .content-wrapper {
 
+  padding-bottom: 35px;
 }
 
 .reviews h2 {
+  font-size: 1.875em;
+  line-height: 1em;
   margin-bottom: 40px;
 }
 
@@ -411,12 +434,13 @@ aside .form-description p {
 }
 
 .reviews h3 {
+  font-size: 1.125em;
   width: 55%;
   margin: 20px 0;
 }
 
 .reviews p {
-
+  line-height: 1.4em;
 }
 
 
@@ -508,8 +532,6 @@ address .contact-content {
 .faq-content p {
 
 }
-
-
 
 
 /* ==========================================================================
