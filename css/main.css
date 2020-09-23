@@ -368,8 +368,9 @@ input[type=button] {
   margin: 0;
 }
 
-.fontawesome-icon {
-
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 
