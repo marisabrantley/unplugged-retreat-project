@@ -21,4 +21,6 @@
   }
 }());
 
-// Place any jQuery/helper plugins in here.
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
